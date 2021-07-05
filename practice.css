@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.leftCon span {
+    color: orange;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.texCont {
+    width: 500px;
+}
+
+.texCont a {
+    text-decoration: none;
+    padding: 10px 45px;
+    background: linear-gradient(45deg, #ff9672, #ff694c);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.leftCon {
+    width: 550px;
+    margin-left: 100px;
+    float: left;
+}
+
+p {
+    color: #696980;
+}
+
+.header {
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.rightCon {
+    float: right;
+    width: 620px;
+}
+.rightCon img {
+    width: 550px;
+}
+.mdlLftimg {
+    width: 620px;
+    float: left;
+}
+
+.mdlLftimg img {
+    width: 550px;
+    margin-left: 100px;
+}
+
+.mdlRhtCon {
+    width: 600px;
+    float: right;
+}
+.mdlRhtCon h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.mdlRhtCon p {
+    width: 500px;
+    color: #696980;
+}
+
+.mdlRhtCon a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background: linear-gradient(45deg, #ff9672, #ff694c);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+section.middleCon {
+    height: 600px;
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section.cardarea h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.leftCard {
+    border-left: 7px solid;
+    border-image: linear-gradient(
+180deg
+, lightsalmon, tomato);
+    border-image-slice: 1;
+    margin-left: 75px;
+    box-shadow: 5px 7px 39px rgb(0 0 0 / 50%);
+    padding: 30px;
+    width: 510px;
+    height: 360px;
+    float: left;
+}
+.leftCard h3 {
+    color: orange;
+}
+.rightCard{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+        180deg
+        , #0009ff, #00f6ff);
+    border-image-slice: 1;
+    box-shadow: 5px 8px 40px rgba(0,0,0,0.5);
+    padding: 20px;
+    height: 380px;
+    width: 510px;
+    float: right;
+    margin-right: 75px;
+}
+section.cardarea {
+    height: 100vh;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p {
+    text-align: center;
+}
+.rightCard h3 {
+    color: orange;
+}
